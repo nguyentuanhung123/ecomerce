@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="./assest/css/ecommerce1.css">
+    <link rel="stylesheet" href="./assest/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./assest/css/grid.css">
+    <link rel="stylesheet" href="./assest/css/responsive1.css">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="grid wide">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="./assest/img/download.png" alt="" width="125px">
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Products</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">Account</a></li>
+                        </ul>
+                    </nav>
+                    <img src="./assest/img/shopping-cart-304843_1280.png" alt="" width="30px" height="30px">
+                    <div id="menu-btn" onclick="menutoggle()">
+                        <i class="menu-icon fas fa-bars"></i>
+                    </div>
+                </div>
+                <div class="news">
+                    <div class="row">
+                        <div class="col l-6 m-6 c-12">
+                            <div class="success">
+                                <h1>Give Your Workout <br> A New Style!</h1>
+                                <p>Sucess isn't always about greatess . It's about consistency
+                                . Consistent hard work gains success . Greatess will
+                                come.</p>
+                                <a href="" class="btn">
+                                Explore Now 
+                                &#8594;
+                               </a>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-6 c-12">
+                            <div class="champion">
+                                <img src="./assest/img/messi-v-rodrigo-de-paul-16437879823531301159366.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="grid wide">
+                <div class="football-shirt-list">
+                    <div class="row sm-gutter">
+                        <div class="col sm-gutter l-4 m-6 c-12">
+                            <div class="football-shirt-item">
+                                <img src="./assest/img/Ao_thi_djau_san_nha_cua_Real_Madrid_trang_DH3372_01_laydown.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col sm-gutter l-4 m-6 c-12">
+                            <div class="football-shirt-item">
+                                <img src="./assest/img/1_ab430bb1eeaf4c729255a4bcddfcad1b_master.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col sm-gutter l-4 m-12 c-12">
+                            <div class="football-shirt-item">
+                                <img src="./assest/img/86522547ccfce5bc02a8494008cc385d.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature">
+                    <h2 class="title">Featured Products</h2>
+                    <div class="row">
+                        <div class="col l-3 m-4 c-6">
+                            <div class="shirt-item">
+                                <img src="./assest/img/Ao_DJau_San_Nha_21-22_Manchester_United_DJo_GR3778_01_laydown.jpg" alt="">
+                                <h4>ÁO ĐẤU SÂN NHÀ 21/22 MANCHESTER UNITED</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <p>$1.500.000đ</p>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-4 c-6">
+                            <div class="shirt-item">
+                                <img src="./assest/img/1_a312673efa0c4f6a9cda961e646c7878_master.jpg" alt="">
+                                <h4>ÁO BÓNG ĐÁ SÂN NHÀ CLB BORUSSIA DORTMUND 2021-2022</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <p>$333.000đ</p>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-4 c-6">
+                            <div class="shirt-item">
+                                <img src="./assest/img/997ddf622c19edf93329771824257b00.jpg" alt="">
+                                <h4>ÁO ĐẤU SÂN NHÀ 21/22 MANCHESTER CITY</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <p>$1.550.000đ</p>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-4 c-6">
+                            <div class="shirt-item">
+                                <img src="./assest/img/Ao_djau_san_nha_Juventus_DJen_DW5455_01_laydown.jpg" alt="">
+                                <h4>ÁO ĐẤU SÂN NHÀ JUVENTUS</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half"></i>
+                                </div>
+                                <p>$900.000đ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--offer-->
+            <div class="offer">
+                <div class="grid wide">
+                    <div class="offer-content">
+                        <div class="row">
+                            <div class="col l-6 m-6 c-12">
+                                <div class="smart-item">
+                                    <img src="./assest/img/Mi-Smart-Band-4.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col l-6 m-6 c-12">
+                                <div class="smart-band">
+                                    <p>Excluively Available on RedStore</p>
+                                    <h1>Smart Band 4</h1>
+                                    <small>
+                                      The Mi Smart Band 4 features a 39.9% larger
+                                      (than Mi Band 3) AMOLED color full-touch display widthadjustable brightness, 
+                                      so everything is clear as can be.
+                                    </small>
+                                    <a href="" class="btn">
+                                    Buy Now 
+                                    &#8594;
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--testimonial-->
+            <div class="testimonial">
+                <div class="grid wide">
+                    <div class="testimonial-content">
+                        <div class="row">
+                            <div class="col l-4 m-6 c-6">
+                                <div class="testimonial-item">
+                                    <i class="fas fa-quote-left"></i>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industry . Lorem Ipsum has been the 
+                                        industry's standart dummy text ever
+                                     </p>
+                                     <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <img src="./assest/img/Lionel_Messi_20180626.jpg" alt="">
+                                    <h3>Lionel_Messi</h3>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-6 c-6">
+                                <div class="testimonial-item">
+                                    <i class="fas fa-quote-left"></i>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industry . Lorem Ipsum has been the 
+                                        industry's standart dummy text ever
+                                     </p>
+                                     <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <img src="./assest/img/cristiano-ronaldo.jpg" alt="">
+                                    <h3>Cristiano_Ronaldo</h3>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-6 c-6">
+                                <div class="testimonial-item">
+                                    <i class="fas fa-quote-left"></i>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing
+                                        and typesetting industry . Lorem Ipsum has been the 
+                                        industry's standart dummy text ever
+                                     </p>
+                                     <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <img src="./assest/img/800px-Bra-Cos_(1).jpg" alt="">
+                                    <h3>Neymar</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!------------------brands---------------->
+            <div class="brands">
+                <div class="grid wide">
+                    <div class="brands-content">
+                        <div class="row">
+                            <div class="col l-2-4 m-6 c-6">
+                                <div class="brand-item">
+                                    <img src="./assest/img/Sprite-Logo-Wallpapers.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-6">
+                                <div class="brand-item">
+                                    <img src="./assest/img/image(3743).png" alt="">
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-6">
+                                <div class="brand-item">
+                                    <img src="./assest/img/y-nghia-logo-cua-pepsi.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-6">
+                                <div class="brand-item">
+                                    <img src="./assest/img/download (1).png" alt="">
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-6">
+                                <div class="brand-item">
+                                    <img src="./assest/img/7Up001_1352564013.jpg" alt="">
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----------------footer------------------->
+            <div class="footer">
+                <div class="grid wide">
+                    <div class="footer-content">
+                        <div class="row">
+                            <div class="col l-4 m-12 c-12">
+                                <div class="footer-item">
+                                    <h3>Dowload Our App</h3>
+                                    <p>Dowload App for Android and ios mobile phone.</p>
+                                    <div class="app-logo">
+                                        <img src="./assest/img/download (2).png" alt="">
+                                        <img src="./assest/img/loi-app-store-1.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-12 c-12">
+                                <div class="footer-item">
+                                    <img src="./assest/img/download.png" alt="">
+                                    <p>Our Purpose Is To Sustainably Make the Plesure and 
+                                        Benefits of Sports Accessible to the Many . </p>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-6 c-6">
+                                <div class="footer-item">
+                                    <h3>Useful Links</h3>
+                                    <ul>
+                                        <li>Coupons</li>
+                                        <li>Blog Post</li>
+                                        <li>Return Policy</li>
+                                        <li>Join Affiliate</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-6 c-6">
+                                <div class="footer-item">
+                                    <h3>Follow us</h3>
+                                    <ul>
+                                        <li>Facebook</li>
+                                        <li>Twitter</li>
+                                        <li>Instagram</li>
+                                        <li>Youtube</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <p class="copyright">Copyright 2020 - Easy Tutoryals.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------js for toggle menu------------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+        if(MenuItems.style.maxHeight == "0px") {
+             MenuItems.style.maxHeight = "500px";
+        }
+        else{
+             MenuItems.style.maxHeight = "0px";
+        }
+}
+    </script>
+</body>
+</html>
